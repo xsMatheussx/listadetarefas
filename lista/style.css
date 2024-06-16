@@ -1,0 +1,95 @@
+body {
+    background-color: #0e406b; 
+    margin: 0;
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+h1 {
+    color: #ffffff; 
+    text-align: center;
+    font-style: normal;
+    margin-bottom: 20px;
+}
+
+div {
+    max-width: 600px;
+    width: 90%;
+    margin: 0 auto;
+    background-color: #13c9c9; 
+    padding: 20px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+    border-radius: 30px;
+    text-align: center; 
+}
+
+#taskinput {
+    width: calc(100% - 30px); 
+    padding: 15px;
+   
+    border-radius: 25px; 
+    margin-bottom: 20px;
+    font-size: 16px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); 
+    margin: 0 auto 20px; 
+}
+
+button {
+    background-color: #4CAF50; 
+    color: white;
+    border: none;
+    border-radius: 25px; 
+    padding: 15px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    display: block;
+    width: calc(100% - 30px); 
+    box-sizing: border-box;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+    margin: 0 auto; 
+}
+
+button:hover {
+    background-color: #45a049; 
+}
+
+#tasklist {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    background-color: #a8ffff; 
+    padding: 15px;
+    border-radius: 25px; 
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+}
+
+.delete {
+    color: #ff1100; /* Cor vermelha harmoniosa */
+    cursor: pointer;
+    padding: 0 15px;
+    border-radius: 50%; /* Borda totalmente arredondada */
+    transition: background-color 0.3s;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffeeee; /* Adiciona uma cor de fundo leve */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Adiciona uma leve sombra */
+}
+
+.delete:hover {
+    background-color: #f35438; /* Tom mais claro de vermelho para o hover */
+}
